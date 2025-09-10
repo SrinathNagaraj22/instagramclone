@@ -18,6 +18,7 @@ function Sidebar() {
           <div className='position-fixed bottom-0 d-flex flex-column gap-3 mb-3'>
             <div><i class="bi bi-list"></i>More</div>
             <div><i class="bi bi-boxes"></i>Also from Meta</div>
+            <div>just for testing</div>
           </div>
       </>
     </div>
