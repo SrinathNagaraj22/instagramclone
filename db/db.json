@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "username": "travel_guru",
+        "profilePic": "/assets/users/travel_guru.jpg"
+      },
+      "imageUrl": "/assets/posts/beach.jpg",
+      "caption": "Chasing sunsets 🌅 #travel #beachlife",
+      "likes": 120,
+      "likedBy": ["john_doe", "anna_smith", "mark_22"],
+      "comments": [
+        {
+          "username": "john_doe",
+          "comment": "Wow! Where is this?"
+        },
+        {
+          "username": "anna_smith",
+          "comment": "Dream destination 💕"
+        }
+      ],
+      "timestamp": "2025-09-10T14:20:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "username": "foodielover",
+        "profilePic": "/assets/users/foodie.jpg"
+      },
+      "imageUrl": "/assets/posts/pizza.jpg",
+      "caption": "Homemade wood-fired pizza 🍕🔥",
+      "likes": 245,
+      "likedBy": ["chef_tony", "amy_cook"],
+      "comments": [
+        {
+          "username": "chef_tony",
+          "comment": "That crust looks perfect!"
+        },
+        {
+          "username": "amy_cook",
+          "comment": "Send me some 😍"
+        }
+      ],
+      "timestamp": "2025-09-09T18:45:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "username": "fitness_freak",
+        "profilePic": "/assets/users/fitness.jpg"
+      },
+      "imageUrl": "/assets/posts/workout.jpg",
+      "caption": "Push harder than yesterday 💪 #fitness #motivation",
+      "likes": 89,
+      "likedBy": ["mike_run", "sarah_fit"],
+      "comments": [
+        {
+          "username": "mike_run",
+          "comment": "Beast mode 🔥"
+        }
+      ],
+      "timestamp": "2025-09-08T06:30:00Z"
+    }
+  ]
+}
