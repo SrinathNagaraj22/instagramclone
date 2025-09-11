@@ -62,5 +62,44 @@
       ],
       "timestamp": "2025-09-08T06:30:00Z"
     }
+  ],
+  "profiles":
+  {
+        "id":101,
+        "username": "travel_guru",
+        "profilePic": "/assets/users/travel_guru.jpg"
+  },
+  "suggestions":[
+  {
+        "id":101,
+        "username": "travel_guru",
+        "profilePic": "/assets/users/travel_guru.jpg"
+  },
+  {
+        "id":102,
+        "username": "foodielover",
+        "profilePic": "/assets/users/foodie.jpg"
+  },
+  {
+        "id":103,
+        "username": "fitness_freak",
+        "profilePic": "/assets/users/fitness.jpg"
+  },
+  {
+        "id":104,
+        "username": "naturelover",
+        "profilePic": "/assets/users/foodie.jpg"
+  },
+  {
+        "id":105,
+        "username": "rainlover",
+        "profilePic": "/assets/users/foodie.jpg"
+  },
+  {
+        "id":106,
+        "username": "CodewithMe",
+        "profilePic": "/assets/users/foodie.jpg"
+  }
   ]
+  
 }

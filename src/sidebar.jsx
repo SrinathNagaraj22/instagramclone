@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className='m-3'>
+    <div className='m-3 position-fixed'>
       <>
           <div className='d-flex flex-column gap-3'>
               <img className='logotext' src='src/assets/instagram text.png' />
