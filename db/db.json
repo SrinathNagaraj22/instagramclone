@@ -63,12 +63,12 @@
       "timestamp": "2025-09-08T06:30:00Z"
     }
   ],
-  "profiles":
+  "profile":[
   {
         "id":101,
         "username": "travel_guru",
         "profilePic": "/assets/users/travel_guru.jpg"
-  },
+  }],
   "suggestions":[
   {
         "id":101,
@@ -100,6 +100,31 @@
         "username": "CodewithMe",
         "profilePic": "/assets/users/foodie.jpg"
   }
-  ]
-  
+  ],
+  "story": [
+  {
+    "id": 1,
+    "user": {
+      "username": "travel_guru",
+      "profilePic": "/assets/users/travel_guru.jpg"
+    },
+    "image": "/assets/stories/story1.jpg"
+  },
+  {
+    "id": 2,
+    "user": {
+      "username": "foodielover",
+      "profilePic": "/assets/users/foodie.jpg"
+    },
+    "image": "/assets/stories/story2.jpg"
+  },
+  {
+    "id": 3,
+    "user": {
+      "username": "fitness_freak",
+      "profilePic": "/assets/users/fitness.jpg"
+    },
+    "image": "/assets/stories/story3.jpg"
+  }
+]
 }
