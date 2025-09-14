@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Stories() {
   const[Stories, setStories]=useState([]);
+  const navigate=useNavigate();
+  let tot=0;
   useEffect(()=>{
     fetch('http://localhost:3000/story')
     .then(data=>data.json())
@@ -9,9 +12,12 @@ function Stories() {
   })
   return (
     <div className='story d-flex ms-4 mt-3'>
+      <div className='d-none'>
+        {tot=Stories.length}
+      </div>
       {Stories.length>0?(
         Stories.map((story)=>(
-          <div className='ms-2' key={story.id}>
+          <div className='ms-2' key={story.id} onClick={()=>(navigate(`/story/${story.id}/${tot}`))}>
             <div className='gradient-border'>
               <img src={story.user.profilePic} alt="storiesprofilepicture" className='story-dp rounded-circle' />
             </div>

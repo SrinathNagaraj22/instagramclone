@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "username": "travel_guru",
         "profilePic": "/assets/users/travel_guru.jpg"
@@ -9,7 +9,11 @@
       "imageUrl": "/assets/posts/beach.jpg",
       "caption": "Chasing sunsets 🌅 #travel #beachlife",
       "likes": 120,
-      "likedBy": ["john_doe", "anna_smith", "mark_22"],
+      "likedBy": [
+        "john_doe",
+        "anna_smith",
+        "mark_22"
+      ],
       "comments": [
         {
           "username": "john_doe",
@@ -23,7 +27,7 @@
       "timestamp": "2025-09-10T14:20:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "username": "foodielover",
         "profilePic": "/assets/users/foodie.jpg"
@@ -31,7 +35,10 @@
       "imageUrl": "/assets/posts/pizza.jpg",
       "caption": "Homemade wood-fired pizza 🍕🔥",
       "likes": 245,
-      "likedBy": ["chef_tony", "amy_cook"],
+      "likedBy": [
+        "chef_tony",
+        "amy_cook"
+      ],
       "comments": [
         {
           "username": "chef_tony",
@@ -45,7 +52,7 @@
       "timestamp": "2025-09-09T18:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "username": "fitness_freak",
         "profilePic": "/assets/users/fitness.jpg"
@@ -53,7 +60,10 @@
       "imageUrl": "/assets/posts/workout.jpg",
       "caption": "Push harder than yesterday 💪 #fitness #motivation",
       "likes": 89,
-      "likedBy": ["mike_run", "sarah_fit"],
+      "likedBy": [
+        "mike_run",
+        "sarah_fit"
+      ],
       "comments": [
         {
           "username": "mike_run",
@@ -63,68 +73,75 @@
       "timestamp": "2025-09-08T06:30:00Z"
     }
   ],
-  "profile":[
-  {
-        "id":101,
-        "username": "travel_guru",
-        "profilePic": "/assets/users/travel_guru.jpg"
-  }],
-  "suggestions":[
-  {
-        "id":101,
-        "username": "travel_guru",
-        "profilePic": "/assets/users/travel_guru.jpg"
-  },
-  {
-        "id":102,
-        "username": "foodielover",
-        "profilePic": "/assets/users/foodie.jpg"
-  },
-  {
-        "id":103,
-        "username": "fitness_freak",
-        "profilePic": "/assets/users/fitness.jpg"
-  },
-  {
-        "id":104,
-        "username": "naturelover",
-        "profilePic": "/assets/users/foodie.jpg"
-  },
-  {
-        "id":105,
-        "username": "rainlover",
-        "profilePic": "/assets/users/foodie.jpg"
-  },
-  {
-        "id":106,
-        "username": "CodewithMe",
-        "profilePic": "/assets/users/foodie.jpg"
-  }
+  "profile": [
+    {
+      "id": "101",
+      "username": "travel_guru",
+      "profilePic": "/assets/users/travel_guru.jpg"
+    }
   ],
-  "story": [
-  {
-    "id": 1,
-    "user": {
+  "suggestions": [
+    {
+      "id": "101",
       "username": "travel_guru",
       "profilePic": "/assets/users/travel_guru.jpg"
     },
-    "image": "/assets/stories/story1.jpg"
-  },
-  {
-    "id": 2,
-    "user": {
+    {
+      "id": "102",
       "username": "foodielover",
       "profilePic": "/assets/users/foodie.jpg"
     },
-    "image": "/assets/stories/story2.jpg"
-  },
-  {
-    "id": 3,
-    "user": {
+    {
+      "id": "103",
       "username": "fitness_freak",
       "profilePic": "/assets/users/fitness.jpg"
     },
-    "image": "/assets/stories/story3.jpg"
-  }
-]
+    {
+      "id": "104",
+      "username": "naturelover",
+      "profilePic": "/assets/users/foodie.jpg"
+    },
+    {
+      "id": "105",
+      "username": "rainlover",
+      "profilePic": "/assets/users/foodie.jpg"
+    },
+    {
+      "id": "106",
+      "username": "CodewithMe",
+      "profilePic": "/assets/users/foodie.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "username": "travel_guru",
+        "profilePic": "/assets/users/travel_guru.jpg"
+      },
+      "image": "/assets/stories/story1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "username": "foodielover",
+        "profilePic": "/assets/users/foodie.jpg"
+      },
+      "image": "/assets/stories/story2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "username": "fitness_freak",
+        "profilePic": "/assets/users/fitness.jpg"
+      },
+      "image": "/assets/stories/story3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "106",
+      "username": "CodewithMe"
+    }
+  ]
 }
